@@ -150,11 +150,10 @@ html {
     cursor: pointer;
 }
 
-#slider {
+#slider img {
     position: relative;
     margin-top: 46px; /*Tách phần slider khỏi header*/
-    padding-top: 50%; /*Định dạng phần ảnh của slider đúng với tỉ lệ ảnh*/
-    background: url('/assets/img/slider/newyork.jpg') top center / cover no-repeat;
+    width: 100%;
 }
 
 #slider .slider-content {
@@ -347,10 +346,10 @@ html {
 }
 
 /* MAP SECTION */
-#map {
+
+#map img {
     position: relative;
-    padding-top: 50%; /*Định dạng phần ảnh của slider đúng với tỉ lệ ảnh*/
-    background: url('/assets/img/tour-location/map.jpg') top center / cover no-repeat;
+    width: 100%;
 }
 
 /* FOOTER */
